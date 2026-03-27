@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DUAL ASFALTOS | Industrial Infrastructure &amp; Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-variant": "#2f3445",
+              "secondary-fixed-dim": "#a4c9ff",
+              "on-tertiary-container": "#1c2b3c",
+              "on-secondary-container": "#d6e5ff",
+              "on-tertiary-fixed-variant": "#39485a",
+              "on-primary": "#002e6a",
+              "on-primary-fixed": "#001a42",
+              "on-background": "#dee1f7",
+              "surface-container-low": "#161b2b",
+              "on-primary-fixed-variant": "#004395",
+              "surface-tint": "#adc6ff",
+              "primary-fixed-dim": "#adc6ff",
+              "inverse-on-surface": "#2b3040",
+              "tertiary-fixed": "#d4e4fa",
+              "tertiary-fixed-dim": "#b9c8de",
+              "surface-dim": "#0e1322",
+              "outline-variant": "#424754",
+              "inverse-primary": "#005ac2",
+              "error-container": "#93000a",
+              "secondary-fixed": "#d4e3ff",
+              "on-tertiary": "#233143",
+              "tertiary": "#b9c8de",
+              "on-tertiary-fixed": "#0d1c2d",
+              "tertiary-container": "#8392a6",
+              "surface-container-highest": "#2f3445",
+              "on-secondary": "#00315d",
+              "on-primary-container": "#00285d",
+              "on-error": "#690005",
+              "on-error-container": "#ffdad6",
+              "error": "#ffb4ab",
+              "secondary": "#a4c9ff",
+              "on-secondary-fixed": "#001c39",
+              "on-secondary-fixed-variant": "#004883",
+              "surface-bright": "#343949",
+              "surface-container-lowest": "#090e1c",
+              "primary-fixed": "#d8e2ff",
+              "outline": "#8c909f",
+              "surface-container": "#1a1f2f",
+              "on-surface-variant": "#c2c6d6",
+              "inverse-surface": "#dee1f7",
+              "surface": "#0e1322",
+              "primary": "#adc6ff",
+              "surface-container-high": "#25293a",
+              "primary-container": "#4d8eff",
+              "background": "#0e1322",
+              "secondary-container": "#0267b8",
+              "on-surface": "#dee1f7"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .grid-texture {
+        background-image: linear-gradient(to right, rgba(140, 144, 159, 0.05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(140, 144, 159, 0.05) 1px, transparent 1px);
+        background-size: 32px 32px;
+      }
+      .industrial-gradient {
+        background: linear-gradient(135deg, #adc6ff 0%, #4d8eff 100%);
+      }
+      .glass-card {
+        background: rgba(47, 52, 69, 0.6);
+        backdrop-filter: blur(20px);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#0e1322]/80 dark:bg-[#0e1322]/80 backdrop-blur-xl border-b border-[#424754]/15 dark:border-[#424754]/15 shadow-2xl shadow-[#002e6a]/25">
+<div class="flex justify-between items-center h-20 px-12 max-w-full mx-auto">
+<div class="text-xl font-black tracking-tighter text-[#adc6ff] dark:text-[#adc6ff] font-['Space_Grotesk']">
+                DUAL ASFALTOS
+            </div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-['Space_Grotesk'] tracking-tight text-sm uppercase font-bold text-[#adc6ff] border-b-2 border-[#adc6ff] pb-1" href="#">Fleet</a>
+<a class="font-['Space_Grotesk'] tracking-tight text-sm uppercase font-bold text-[#c2c6d6] hover:text-[#adc6ff] transition-colors" href="#">Projects</a>
+<a class="font-['Space_Grotesk'] tracking-tight text-sm uppercase font-bold text-[#c2c6d6] hover:text-[#adc6ff] transition-colors" href="#">Technology</a>
+<a class="font-['Space_Grotesk'] tracking-tight text-sm uppercase font-bold text-[#c2c6d6] hover:text-[#adc6ff] transition-colors" href="#">Safety</a>
+<a class="font-['Space_Grotesk'] tracking-tight text-sm uppercase font-bold text-[#c2c6d6] hover:text-[#adc6ff] transition-colors" href="#">About</a>
+</div>
+<button class="industrial-gradient text-on-primary font-headline font-bold uppercase tracking-wider text-xs px-6 py-3 rounded hover:opacity-90 active:scale-95 transition-all duration-150">
+                Request Quote
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-40 mix-blend-luminosity" data-alt="wide shot of industrial asphalt paving machine at night under bright work lights with dramatic shadows and dark blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEVknIua_qt1KFWYYzbPXWtX_KTPGYw0fpVbqZB7mn7418_cR0Kigk_vvJUJiEa9QXxUvHDFkpmxJyCGtgbqyq8WY6Uqt71rs_fAdnUaga4k9NNto_QxBXZBAbGFarvjfr9kcYoF4F4_EWNC4V2F4Ar5pCdTTvmhQ1ztgSPqFPhY8VHZOwjO7V6b0Td0h-PxCEDkMrLH5ZlreRATaFotZNrU7mb8dJQjTXBAbfDOG2tqUuP4hCXtuan1U6rJ6DBfXjLGjOmigHnwiC"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-transparent"></div>
+<div class="absolute inset-0 grid-texture"></div>
+</div>
+<div class="relative z-10 container mx-auto px-12">
+<div class="max-w-4xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 border border-primary/20 rounded-full mb-6">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-primary font-headline text-[10px] uppercase tracking-widest font-bold">Precision Engineering Solutions</span>
+</div>
+<h1 class="font-headline font-bold text-6xl md:text-8xl text-white tracking-tighter leading-tight mb-8">
+                    WE BUILD THE <br/>
+<span class="text-primary">FOUNDATION</span> OF <br/>
+                    COMMERCE.
+                </h1>
+<p class="text-on-surface-variant text-lg md:text-xl max-w-xl mb-10 leading-relaxed font-light">
+                    Engineered asphalt and civil infrastructure for the industrial age. Delivering durability that withstands the heaviest loads and the harshest environments.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="industrial-gradient text-on-primary px-8 py-4 rounded font-headline font-bold uppercase tracking-widest text-sm shadow-xl shadow-primary/20">
+                        Our Fleet Capabilities
+                    </button>
+<button class="bg-surface-variant/40 backdrop-blur-md border border-outline-variant/30 text-white px-8 py-4 rounded font-headline font-bold uppercase tracking-widest text-sm hover:bg-surface-variant/60 transition-all">
+                        View Project Portfolio
+                    </button>
+</div>
+</div>
+</div>
+<!-- Asymmetric Stat Bar -->
+<div class="absolute bottom-0 right-0 w-full md:w-3/4 bg-surface-container border-t border-outline-variant/15 p-12 hidden md:block">
+<div class="grid grid-cols-4 gap-8">
+<div>
+<span class="block text-primary font-headline text-4xl font-bold mb-1">500+</span>
+<span class="text-on-surface-variant text-[10px] uppercase tracking-widest font-bold">Km Paved Annually</span>
+</div>
+<div>
+<span class="block text-primary font-headline text-4xl font-bold mb-1">15y</span>
+<span class="text-on-surface-variant text-[10px] uppercase tracking-widest font-bold">Industrial Experience</span>
+</div>
+<div>
+<span class="block text-primary font-headline text-4xl font-bold mb-1">100%</span>
+<span class="text-on-surface-variant text-[10px] uppercase tracking-widest font-bold">Safety Compliance</span>
+</div>
+<div>
+<span class="block text-primary font-headline text-4xl font-bold mb-1">24/7</span>
+<span class="text-on-surface-variant text-[10px] uppercase tracking-widest font-bold">Operational Support</span>
+</div>
+</div>
+</div>
+</header>
+<!-- Services Section (Bento Grid) -->
+<section class="py-32 bg-surface-dim relative overflow-hidden">
+<div class="container mx-auto px-12 relative z-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+<div class="max-w-2xl">
+<span class="text-primary font-headline text-xs font-bold uppercase tracking-[0.3em] mb-4 block">Core Competencies</span>
+<h2 class="font-headline font-bold text-4xl md:text-5xl text-white tracking-tight">INFRASTRUCTURE SERVICES</h2>
+</div>
+<p class="text-on-surface-variant text-sm max-w-sm leading-relaxed">
+                    Utilizing cutting-edge polymer-modified binders and robotic grading systems to deliver superior industrial surfaces.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Large Feature -->
+<div class="md:col-span-2 group relative h-[500px] overflow-hidden rounded-xl bg-surface-container border border-outline-variant/10">
+<img class="absolute inset-0 w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105" data-alt="close up of hot black asphalt being poured and leveled by heavy industrial machinery with steam rising" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0Wt7RT4hVLx_wejwbMvohaqX9lfrOzsR2rfarUlW51aYL1zAC6XcoV9FOV-Ud9wsFIcGRV3_pmleaid1nbla2mAMrmp0CYAp2LVJG0kUjLnVMQd9kbyhA17OEewonJXMVc5_VyMYDAZyPr59VSDHpjLYCmtALMce9TNB1H7ZgA07sHE7u0VuhnRp5_zzjyy6Kq8739DVblWC6DZ0JfkqKvvRAIRlKHh8cSp8ZIVU6OrMCrb-iM5s2sq_lfSMDAuaVAEIx6a-jZ9pq"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim to-transparent"></div>
+<div class="absolute bottom-0 p-10">
+<span class="text-primary-container text-[10px] font-bold uppercase tracking-widest mb-3 block">01 / Major Works</span>
+<h3 class="font-headline font-bold text-3xl text-white mb-4">Precision Asphalt Paving</h3>
+<p class="text-on-surface-variant text-sm max-w-md mb-6">High-performance paving solutions for highways, airports, and logistics hubs requiring maximum durability.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest group" href="#">
+                            Technical Specs <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Vertical Feature -->
+<div class="group relative h-[500px] overflow-hidden rounded-xl bg-surface-container-high border border-outline-variant/10">
+<div class="absolute inset-0 grid-texture opacity-20"></div>
+<div class="p-10 h-full flex flex-col justify-between">
+<div>
+<span class="text-primary-container text-[10px] font-bold uppercase tracking-widest mb-3 block">02 / Heavy Duty</span>
+<h3 class="font-headline font-bold text-3xl text-white mb-4">Industrial Projects</h3>
+</div>
+<div>
+<p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Specialized surfacing for heavy machinery areas, storage yards, and chemical processing plants.</p>
+<div class="w-12 h-1 bg-primary"></div>
+</div>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="group relative h-[350px] overflow-hidden rounded-xl bg-surface-container border border-outline-variant/10">
+<img class="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity" data-alt="construction worker with safety helmet and vest using a leveling tool on a road construction site" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAdppHrD46zWj0Qkj8iRv-wm9b33S2TKrAl4_zeFye5Xx4HPI3Q4-iT-zNBOQCg0w85iGrn5PJF6uVZiGamfbUwwIBzcVrbZRS_dY3xJzXHocN2--Kso4adilkE2GI-mpBopuMjKBTL1yWeV-W72vKdpjEMrh9VyS2I1zHnp9cJoetXBASogwqZ67NWXnoGST39L65nU7AIaKESq5zz5xEYG9_5tgeaRET-RyJT22rvTHumGq9c0U2g7tKzT_K83DY0d4h7Rysne7h"/>
+<div class="absolute inset-0 p-10 flex flex-col justify-end">
+<h3 class="font-headline font-bold text-xl text-white mb-2">Road Maintenance</h3>
+<p class="text-on-surface-variant text-xs">Preventative sealing and structural repairs to extend pavement life cycles.</p>
+</div>
+</div>
+<!-- Feature 4 -->
+<div class="md:col-span-2 group relative h-[350px] overflow-hidden rounded-xl bg-surface-container-high border border-outline-variant/10">
+<div class="p-10 flex h-full items-center gap-10">
+<div class="hidden md:block w-48 h-48 rounded-lg bg-surface overflow-hidden border border-outline-variant/20">
+<img class="w-full h-full object-cover grayscale opacity-60" data-alt="macro detail of raw asphalt texture showing aggregate and binder composition" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaHTk_V4_Ar5o-RahEa0jmo8fu0HPDHgYR9-jbWKBDECTwRwXu4insGbExI6TtFauYEkdSzVMhfBitLpaBfN0uIwEi8QpYnMlPf8eaOMMJyWtFdy8ptOsTizuTK9AiTbH26XolxJkgq4DkLs2YVjm6KFsXMVIz5msjngo2gZ417MryOy1Lpf_hJOTUyjP1-I5MpnRoSia8Ao_kwJ8_L9VzhMmopLFRUD5-kbJ5Za0nKKKmKISv5SGacXjU0zl9U5cNK4czhFn6l_O4"/>
+</div>
+<div class="flex-1">
+<span class="text-primary-container text-[10px] font-bold uppercase tracking-widest mb-3 block">04 / Lifecycle</span>
+<h3 class="font-headline font-bold text-2xl text-white mb-4">Civil Infrastructure Construction</h3>
+<p class="text-on-surface-variant text-sm mb-6">Comprehensive earthworks, drainage systems, and site preparation for large-scale urban development.</p>
+<div class="flex gap-4">
+<span class="px-3 py-1 rounded bg-surface text-primary text-[10px] font-bold uppercase border border-outline-variant/10">Surveying</span>
+<span class="px-3 py-1 rounded bg-surface text-primary text-[10px] font-bold uppercase border border-outline-variant/10">Grading</span>
+<span class="px-3 py-1 rounded bg-surface text-primary text-[10px] font-bold uppercase border border-outline-variant/10">Drainage</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Us Section (Editorial Style) -->
+<section class="py-32 bg-surface-container-lowest">
+<div class="container mx-auto px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<div class="lg:col-span-5 relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/5 rounded-full blur-3xl"></div>
+<img class="w-full h-[600px] object-cover rounded-lg border border-outline-variant/10 shadow-2xl" data-alt="Architectural photo of a modern concrete and steel building structure showing engineering precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOT_qb30hLLOYBC3srNqcrn1MwdpnpCTjK_RCIBgTFa7ejAvt61oHG4avjYgmHfUf8poh4aFpP1A-yPsoNBmXN4S_4pKvK2-8dd_pqz_SrVA0XoAyBHgTDq9eYzQ_R-gWspClpFA4AvEis5dvkQyeXvpBOXmwFoGAgCGDWXcY-JIZQ7w0Jtqlo5eLlN5zH7_soqTslrV6IvLFnc0EWUqtz4atzHbeCiJ9k787xzlFeEej1bKjohjU9vphNPBN6XRFs67GJl5N_tcba"/>
+<div class="absolute -bottom-8 -right-8 glass-card p-8 rounded-lg border border-outline-variant/20 hidden md:block">
+<p class="font-headline text-5xl font-bold text-primary mb-2">100%</p>
+<p class="text-[10px] text-on-surface-variant font-bold uppercase tracking-[0.2em]">In-House Execution</p>
+</div>
+</div>
+<div class="lg:col-span-7">
+<span class="text-primary font-headline text-xs font-bold uppercase tracking-[0.3em] mb-6 block">Our Legacy</span>
+<h2 class="font-headline font-bold text-5xl text-white mb-8 tracking-tighter leading-[1.1]">ENGINEERING THE FUTURE OF CONNECTIVITY</h2>
+<div class="space-y-6 text-on-surface-variant font-light leading-relaxed text-lg">
+<p>
+                            Founded on the principles of structural integrity and operational excellence, DUAL ASFALTOS has evolved into a powerhouse of civil engineering. We don't just lay pavement; we engineer the critical arteries that power modern logistics and urban expansion.
+                        </p>
+<p>
+                            Our team combines decades of on-site experience with modern telemetry and material science. Every project we undertake is a testament to our commitment to "The Monolith" philosophy—structures built to outlast the competition and resist the elements.
+                        </p>
+</div>
+<div class="mt-12 grid grid-cols-2 gap-8">
+<div>
+<h4 class="text-white font-headline font-bold text-sm uppercase tracking-widest mb-2">Our Vision</h4>
+<p class="text-on-surface-variant text-sm">To set the global standard for industrial paving through sustainable tech and unmatched durability.</p>
+</div>
+<div>
+<h4 class="text-white font-headline font-bold text-sm uppercase tracking-widest mb-2">Our Mission</h4>
+<p class="text-on-surface-variant text-sm">Empowering industry through resilient infrastructure and data-driven construction management.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us (Telemetry Grid) -->
+<section class="py-32 bg-surface">
+<div class="container mx-auto px-12">
+<div class="text-center max-w-3xl mx-auto mb-20">
+<span class="text-primary font-headline text-xs font-bold uppercase tracking-[0.3em] mb-4 block">The Advantage</span>
+<h2 class="font-headline font-bold text-4xl text-white tracking-tight">WHY CORPORATE LEADERS TRUST DUAL</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-px bg-outline-variant/10 border border-outline-variant/10 rounded-xl overflow-hidden">
+<div class="bg-surface p-12 hover:bg-surface-container transition-colors duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="precision_manufacturing">precision_manufacturing</span>
+<h4 class="text-white font-headline font-bold text-lg mb-4">Material Quality</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Proprietary binder mixes and premium aggregate selection for maximum load resistance.</p>
+</div>
+<div class="bg-surface p-12 hover:bg-surface-container transition-colors duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="groups">groups</span>
+<h4 class="text-white font-headline font-bold text-lg mb-4">Elite Expertise</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Certified engineers and master operators overseeing every millimetre of construction.</p>
+</div>
+<div class="bg-surface p-12 hover:bg-surface-container transition-colors duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="timer">timer</span>
+<h4 class="text-white font-headline font-bold text-lg mb-4">Critical Timing</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Rapid mobilization and 24/7 execution schedules to minimize operational downtime.</p>
+</div>
+<div class="bg-surface p-12 hover:bg-surface-container transition-colors duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="payments">payments</span>
+<h4 class="text-white font-headline font-bold text-lg mb-4">Strategic Pricing</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Transparent cost-modeling providing superior ROI through extended lifespan pavements.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Section -->
+<section class="py-32 bg-surface-dim relative overflow-hidden">
+<div class="absolute inset-0 grid-texture opacity-10"></div>
+<div class="container mx-auto px-12 relative z-10">
+<div class="flex justify-between items-end mb-16">
+<div>
+<span class="text-primary font-headline text-xs font-bold uppercase tracking-[0.3em] mb-4 block">Selected Works</span>
+<h2 class="font-headline font-bold text-4xl text-white tracking-tight">PROJECT SHOWCASE</h2>
+</div>
+<button class="text-on-surface-variant hover:text-primary font-headline font-bold text-xs uppercase tracking-widest flex items-center gap-2">
+                    View All Projects <span class="material-symbols-outlined">north_east</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="High angle view of a complex highway interchange under construction with large cranes and structural elements" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAUZtmP5wKnbpT0sdRqWgr-NzZYNCsFz-XlJ4GDuiG4YZ1eR_Z_3g_KVM6mdT4TnZqIpOjP0urNx4YTouzMC1FVgc3DP2GwfN0cON2XWn2vpKqBjKTapgBWrzNon_BGAycnwQd_PecARxG2kCCoF66Tu9Frgt7_g9nhQgESCvLJMcTd0nJQv3UMyYivjSX6buc5wkeSenLD5z_OKjWplgDa7a5AhOiDUmI0WyJWqypFY9tO-or24ZbCK6zKb9bnfbzshYUn6ZwqD8y"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-transparent to-transparent"></div>
+<div class="absolute bottom-0 p-8 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<p class="text-primary font-headline text-[10px] font-bold uppercase tracking-widest mb-2">Highway Expansion</p>
+<h4 class="text-white font-headline font-bold text-xl mb-4">Metropolitan Junction X-4</h4>
+</div>
+</div>
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="industrial logistics park with large warehouse buildings and vast areas of fresh dark grey asphalt paving" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZb6o8Q-XY0MvQKZvELdWrNjSMwgC6K8Xbu7tIaQEqvaYWWo0qAnaPeoUA3eQ_OX-v0_FjiUGyURwPXUxoXyYJS_bO81zmC1ZNDmsgNBTaHull3HZbdVni-BBFMLo0ReimT1Q2rZ7VE3B-6EtUPD6CZwJu1LHTpSeAZjOEOv-EwMGz5IrDyqDwnClUdjyHciQJqoDNdsOeeruRBvqQcSd8rgHw9q7KKzrc8jg8KcQl4G-s-gqIxego7gRFov3CZWaC4xGoDQGUv8CB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-transparent to-transparent"></div>
+<div class="absolute bottom-0 p-8 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<p class="text-primary font-headline text-[10px] font-bold uppercase tracking-widest mb-2">Industrial Hub</p>
+<h4 class="text-white font-headline font-bold text-xl mb-4">North Logistics Terminal</h4>
+</div>
+</div>
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg lg:block">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Runway construction at an airport with heavy machinery and specialized asphalt paving equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwiU8qd-4S4MmeoPwDL--ZkTQgB5Ft0lFgdQePBZvg251UGVgPBMdccRWQyTBX3AoZeJiURu8Ajsin6fdnOzjt9EZEoKO0bKQv0cPBbjxrGEwMGVplmVjOKjPnzrBnSiw2f3A8L1-ioUAJxL-z5y1KhwG5YGCIYRsvZusA_fryURlHoG_iIKVpWWUfxjZODLrYsrARj24PeRL3R8y6hRk7DftUOr5zF6pvyKxmrLfKJyjhXuAQMg9xaV5J9C6TpT6rprJ1fmgINoU4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-transparent to-transparent"></div>
+<div class="absolute bottom-0 p-8 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<p class="text-primary font-headline text-[10px] font-bold uppercase tracking-widest mb-2">Aerospace Infrastructure</p>
+<h4 class="text-white font-headline font-bold text-xl mb-4">International Runway Re-Surfacing</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Lead Generation Contact Form -->
+<section class="py-32 bg-surface-container relative">
+<div class="container mx-auto px-12">
+<div class="max-w-6xl mx-auto glass-card rounded-2xl border border-outline-variant/20 overflow-hidden shadow-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-2">
+<div class="p-16 industrial-gradient relative">
+<div class="absolute inset-0 grid-texture opacity-20"></div>
+<div class="relative z-10 text-on-primary">
+<h2 class="font-headline font-bold text-5xl mb-8 tracking-tighter leading-none">START YOUR <br/>INFRASTRUCTURE JOURNEY.</h2>
+<p class="text-on-primary/80 mb-12 text-lg leading-relaxed">Ready for an industrial-grade solution? Our engineering consultants are standing by to provide a technical feasibility assessment for your next project.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-primary/60">location_on</span>
+<span class="text-sm font-bold uppercase tracking-widest">Global HQ: Industrial District VII</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-primary/60">mail</span>
+<span class="text-sm font-bold uppercase tracking-widest">projects@dual-asfaltos.com</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-primary/60">phone_in_talk</span>
+<span class="text-sm font-bold uppercase tracking-widest">+1 (800) INFRA-DUAL</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-16 bg-surface-container-high">
+<form action="#" class="space-y-6">
+<div class="grid grid-cols-2 gap-6">
+<div>
+<label class="block text-[10px] text-on-surface-variant font-bold uppercase tracking-widest mb-2">Full Name</label>
+<input class="w-full bg-surface-container-highest border-none rounded-sm px-4 py-3 text-white focus:ring-1 focus:ring-primary transition-all" placeholder="John Engineer" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] text-on-surface-variant font-bold uppercase tracking-widest mb-2">Company</label>
+<input class="w-full bg-surface-container-highest border-none rounded-sm px-4 py-3 text-white focus:ring-1 focus:ring-primary transition-all" placeholder="Industrial Corp" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-[10px] text-on-surface-variant font-bold uppercase tracking-widest mb-2">Email Address</label>
+<input class="w-full bg-surface-container-highest border-none rounded-sm px-4 py-3 text-white focus:ring-1 focus:ring-primary transition-all" placeholder="j.engineer@industrial.com" type="email"/>
+</div>
+<div>
+<label class="block text-[10px] text-on-surface-variant font-bold uppercase tracking-widest mb-2">Project Scope</label>
+<select class="w-full bg-surface-container-highest border-none rounded-sm px-4 py-3 text-white focus:ring-1 focus:ring-primary transition-all">
+<option>Select Project Type</option>
+<option>New Highway Paving</option>
+<option>Industrial Logistics Facility</option>
+<option>Road Maintenance Program</option>
+<option>Civil Infrastructure Engineering</option>
+</select>
+</div>
+<div>
+<label class="block text-[10px] text-on-surface-variant font-bold uppercase tracking-widest mb-2">Technical Brief</label>
+<textarea class="w-full bg-surface-container-highest border-none rounded-sm px-4 py-3 text-white focus:ring-1 focus:ring-primary transition-all" placeholder="Briefly describe your infrastructure requirements..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary font-headline font-bold uppercase tracking-[0.2em] py-4 rounded hover:bg-white transition-all duration-300" type="submit">
+                                Submit For Quote
+                            </button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#090e1c] dark:bg-[#090e1c] w-full py-16 px-12 border-t border-[#424754]/10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+<div class="md:col-span-1">
+<div class="text-lg font-bold text-[#adc6ff] mb-4 font-headline uppercase tracking-tighter">DUAL ASFALTOS</div>
+<p class="text-[#8c909f] font-['Inter'] text-xs font-medium uppercase tracking-widest leading-relaxed">
+                    © 2026 DUAL ASFALTOS. Engineering the Future of Infrastructure.
+                </p>
+</div>
+<div>
+<h5 class="text-[#adc6ff] font-['Inter'] text-xs font-bold uppercase tracking-widest mb-6">Operations</h5>
+<ul class="space-y-4">
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">Compliance</a></li>
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">Safety Standards</a></li>
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">Sustainability</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[#adc6ff] font-['Inter'] text-xs font-bold uppercase tracking-widest mb-6">Corporate</h5>
+<ul class="space-y-4">
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">Investor Relations</a></li>
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">News &amp; Press</a></li>
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[#adc6ff] font-['Inter'] text-xs font-bold uppercase tracking-widest mb-6">Legal</h5>
+<ul class="space-y-4">
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">Privacy Policy</a></li>
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">Terms of Service</a></li>
+<li><a class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#8c909f] hover:text-[#adc6ff] transition-opacity duration-200" href="#">Contact Support</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</body></html>

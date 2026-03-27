@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scroll suave para toda la página */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ajuste para offset del header fijo */
+section {
+  scroll-margin-top: 80px;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary;
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings:
+      "FILL" 0,
+      "wght" 400,
+      "GRAD" 0,
+      "opsz" 24;
+  }
+
+  .grid-texture {
+    background-image:
+      linear-gradient(to right, rgba(140, 144, 159, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(140, 144, 159, 0.05) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  .industrial-gradient {
+    background: linear-gradient(135deg, #adc6ff 0%, #4d8eff 100%);
+  }
+
+  .glass-card {
+    background: rgba(47, 52, 69, 0.6);
+    backdrop-filter: blur(20px);
+  }
+
+  .blueprint-pattern {
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(173, 198, 255, 0.05) 10px,
+      rgba(173, 198, 255, 0.05) 20px
+    );
+  }
+}
