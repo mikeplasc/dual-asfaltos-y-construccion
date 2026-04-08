@@ -30,7 +30,7 @@
 - Registra "Dual Asfaltos y Construcción"
 - Agrega:
   - Dirección física
-  - Número: +52 449 415 5314
+  - Número: +52 449 150 8723
   - Fotos de proyectos
   - Horarios de atención
   - Categoría: "Empresa de pavimentación" / "Constructora"

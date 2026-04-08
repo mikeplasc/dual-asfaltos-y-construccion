@@ -43,7 +43,7 @@
    - **Nombre**: Dual Asfaltos y Construcción
    - **Categoría**: Empresa de pavimentación / Contratista de obras
    - **Dirección**: Tu dirección física completa
-   - **Teléfono**: +52 449 415 5314
+   - **Teléfono**: +52 449 150 8723
    - **Sitio web**: Tu URL (cuando esté publicada)
    - **Horario**: Tus horarios de atención
 

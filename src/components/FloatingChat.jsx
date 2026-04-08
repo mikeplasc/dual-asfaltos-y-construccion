@@ -2,7 +2,7 @@ import React from "react";
 
 const FloatingChat = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "5214494155314"; // Formato internacional sin + ni espacios
+    const phoneNumber = "5214491508723"; // Formato internacional sin + ni espacios
     const message = `Buen día, me comunico desde su página web.
 
 Me interesa solicitar información sobre sus servicios de pavimentación y construcción, específicamente para:
