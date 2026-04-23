@@ -1,4 +1,4 @@
-import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -8,8 +8,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import MobileNav from './components/MobileNav';
 import FloatingChat from './components/FloatingChat';
+import ServicesPage from './pages/ServicesPage';
 
-function App() {
+function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -27,5 +28,13 @@ function App() {
   );
 }
 
-export default App;
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/servicios" element={<ServicesPage />} />
+    </Routes>
+  );
+}
 
+export default App;

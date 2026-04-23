@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -74,15 +75,15 @@ const Services = () => {
                 aeropuertos y centros logísticos que requieren máxima
                 durabilidad.
               </p>
-              <a
+              <Link
                 className="inline-flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest group"
-                href="#"
+                to="/servicios"
               >
-                Especificaciones Técnicas{" "}
+                Ver Todos los Servicios{" "}
                 <span className="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">
                   arrow_forward
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
 

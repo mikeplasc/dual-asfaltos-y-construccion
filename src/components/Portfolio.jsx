@@ -17,14 +17,12 @@ const Portfolio = () => {
     {
       title: "Repavimentación Pista Internacional",
       category: "Infraestructura Aeroespacial",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAwiU8qd-4S4MmeoPwDL--ZkTQgB5Ft0lFgdQePBZvg251UGVgPBMdccRWQyTBX3AoZeJiURu8Ajsin6fdnOzjt9EZEoKO0bKQv0cPBbjxrGEwMGVplmVjOKjPnzrBnSiw2f3A8L1-ioUAJxL-z5y1KhwG5YGCIYRsvZusA_fryURlHoG_iIKVpWWUfxjZODLrYsrARj24PeRL3R8y6hRk7DftUOr5zF6pvyKxmrLfKJyjhXuAQMg9xaV5J9C6TpT6rprJ1fmgINoU4",
+      image: "https://placehold.co/400x500/1c2333/4a5568?text=Repavimentacion+Pista",
     },
     {
       title: "Proyecto Carretero",
       category: "Construcción Vial",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAAMQW3XBCVl9rUXqyxw8bHLsuFZMlMTTKKtXAO50yfdaSKlk82WLxBXwMePLfXutNgyAlDYykX0CKQSjdGUTK3rrXSf36iiesrR71tP878-y8ib2wVCoShBQE8CT2XeNquXeLjUFwwnwZIsNbIU3G3l4yzJnRObj5Y7lPsNVbGWfF7eG0vdXj7mbi6XqdNvyWE2Vnn_ez02hXNYMdEnzokSvlnzPbyEYuSd_EAqXh-3tsVHBYojWB3rwvSgUGzpSJR8683YUpuRPxo",
+      image: "https://placehold.co/400x500/1c2333/4a5568?text=Proyecto+Carretero",
     },
     {
       title: "Almacén Industrial",
@@ -35,8 +33,7 @@ const Portfolio = () => {
     {
       title: "Reparación Asfáltica Urbana",
       category: "Mantenimiento",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBc_oLlW3X_W_HxcJ1A-3PAdOFBXWgIMbK2_NV4C27mTeSHSxHfntWWl5noOwV266GFBjDIgi4kJIEyAmgyYC-qLlfHjGQGl7j0v6PYaKQ6PmVpd-GvYmkLB4e_5xmuPiooH70OqVaeHXiLZK3dZuZQDGtdGe7A5vjmvlA4ImGSTuTak4yopwq70F_VvOLWrH9wVfN9mom_qspDHDt913vy5J6DwDL0KoOESHptgomZBFFxYSpUpVbacqaRCmz9pwljZj4Af-HsWsiG",
+      image: "https://placehold.co/400x500/1c2333/4a5568?text=Reparacion+Asfaltica",
     },
   ];
 
