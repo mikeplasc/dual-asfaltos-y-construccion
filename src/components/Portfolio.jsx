@@ -3,37 +3,34 @@ import React from "react";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Entronque Metropolitano X-4",
-      category: "Expansión de Autopista",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDAUZtmP5wKnbpT0sdRqWgr-NzZYNCsFz-XlJ4GDuiG4YZ1eR_Z_3g_KVM6mdT4TnZqIpOjP0urNx4YTouzMC1FVgc3DP2GwfN0cON2XWn2vpKqBjKTapgBWrzNon_BGAycnwQd_PecARxG2kCCoF66Tu9Frgt7_g9nhQgESCvLJMcTd0nJQv3UMyYivjSX6buc5wkeSenLD5z_OKjWplgDa7a5AhOiDUmI0WyJWqypFY9tO-or24ZbCK6zKb9bnfbzshYUn6ZwqD8y",
+      title: "Vialidad Residencial",
+      category: "Infraestructura Vial",
+      image: "/images/image18.jpeg",
     },
     {
-      title: "Terminal Logística Norte",
+      title: "Nave Industrial",
       category: "Hub Industrial",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCZb6o8Q-XY0MvQKZvELdWrNjSMwgC6K8Xbu7tIaQEqvaYWWo0qAnaPeoUA3eQ_OX-v0_FjiUGyURwPXUxoXyYJS_bO81zmC1ZNDmsgNBTaHull3HZbdVni-BBFMLo0ReimT1Q2rZ7VE3B-6EtUPD6CZwJu1LHTpSeAZjOEOv-EwMGz5IrDyqDwnClUdjyHciQJqoDNdsOeeruRBvqQcSd8rgHw9q7KKzrc8jg8KcQl4G-s-gqIxego7gRFov3CZWaC4xGoDQGUv8CB",
+      image: "/images/image21.jpeg",
     },
     {
-      title: "Repavimentación Pista Internacional",
-      category: "Infraestructura Aeroespacial",
-      image: "https://placehold.co/400x500/1c2333/4a5568?text=Repavimentacion+Pista",
+      title: "Fraccionamiento Residencial",
+      category: "Desarrollo Habitacional",
+      image: "/images/image13.jpeg",
     },
     {
-      title: "Proyecto Carretero",
-      category: "Construcción Vial",
-      image: "https://placehold.co/400x500/1c2333/4a5568?text=Proyecto+Carretero",
+      title: "Colado de Losa",
+      category: "Construcción Civil",
+      image: "/images/image19.jpeg",
     },
     {
-      title: "Almacén Industrial",
-      category: "Pavimentación Comercial",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCjpFgh_N9ZfbfVIlRP3f0FRVZNf_uG5neMLcMLPmzNGGMXbTNdy36slS8o2MOchXdF6ZWoGjrsi1pfTwOEk6hNlieiUCTJY6LgiW-kdMzGiij7aGSgFF-1q_iPxh1oke97DubRmCNbofYIbSRq33yxj7T1-7esfEmEKbAwEMnUgxmTjMzZt0RnWxI4-JhKwisMRRrkgdniwp-ekOQ38NTonuzOoS49YtQ-bXA-VgDuP3sEthGISnO7b4EYfwKeYYkk_J1--UHwa8Qx",
+      title: "Bodega Comercial",
+      category: "Proyecto Industrial",
+      image: "/images/image10.jpeg",
     },
     {
-      title: "Reparación Asfáltica Urbana",
-      category: "Mantenimiento",
-      image: "https://placehold.co/400x500/1c2333/4a5568?text=Reparacion+Asfaltica",
+      title: "Urbanización y Perimetral",
+      category: "Obra Civil",
+      image: "/images/image3.jpeg",
     },
   ];
 

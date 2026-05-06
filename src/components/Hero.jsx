@@ -14,8 +14,8 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           className="w-full h-full object-cover opacity-40 mix-blend-luminosity"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEVknIua_qt1KFWYYzbPXWtX_KTPGYw0fpVbqZB7mn7418_cR0Kigk_vvJUJiEa9QXxUvHDFkpmxJyCGtgbqyq8WY6Uqt71rs_fAdnUaga4k9NNto_QxBXZBAbGFarvjfr9kcYoF4F4_EWNC4V2F4Ar5pCdTTvmhQ1ztgSPqFPhY8VHZOwjO7V6b0Td0h-PxCEDkMrLH5ZlreRATaFotZNrU7mb8dJQjTXBAbfDOG2tqUuP4hCXtuan1U6rJ6DBfXjLGjOmigHnwiC"
-          alt="Industrial asphalt paving machine at night"
+          src="/images/image11.jpeg"
+          alt="Trabajadores colando concreto en obra de infraestructura"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-transparent"></div>
         <div className="absolute inset-0 grid-texture"></div>

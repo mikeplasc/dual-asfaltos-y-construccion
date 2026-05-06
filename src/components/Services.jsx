@@ -59,8 +59,8 @@ const Services = () => {
           <div className="md:col-span-2 group relative h-[500px] overflow-hidden rounded-xl bg-surface-container border border-outline-variant/10">
             <img
               className="absolute inset-0 w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0Wt7RT4hVLx_wejwbMvohaqX9lfrOzsR2rfarUlW51aYL1zAC6XcoV9FOV-Ud9wsFIcGRV3_pmleaid1nbla2mAMrmp0CYAp2LVJG0kUjLnVMQd9kbyhA17OEewonJXMVc5_VyMYDAZyPr59VSDHpjLYCmtALMce9TNB1H7ZgA07sHE7u0VuhnRp5_zzjyy6Kq8739DVblWC6DZ0JfkqKvvRAIRlKHh8cSp8ZIVU6OrMCrb-iM5s2sq_lfSMDAuaVAEIx6a-jZ9pq"
-              alt="Asfalto caliente siendo vertido"
+              src="/images/image16.jpeg"
+              alt="Trabajadores colando guarnición con camión revolvedor"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-surface-dim to-transparent"></div>
             <div className="absolute bottom-0 p-10">
@@ -113,8 +113,8 @@ const Services = () => {
           <div className="group relative h-[350px] overflow-hidden rounded-xl bg-surface-container border border-outline-variant/10">
             <img
               className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAdppHrD46zWj0Qkj8iRv-wm9b33S2TKrAl4_zeFye5Xx4HPI3Q4-iT-zNBOQCg0w85iGrn5PJF6uVZiGamfbUwwIBzcVrbZRS_dY3xJzXHocN2--Kso4adilkE2GI-mpBopuMjKBTL1yWeV-W72vKdpjEMrh9VyS2I1zHnp9cJoetXBASogwqZ67NWXnoGST39L65nU7AIaKESq5zz5xEYG9_5tgeaRET-RyJT22rvTHumGq9c0U2g7tKzT_K83DY0d4h7Rysne7h"
-              alt="Trabajador de construcción con equipo de seguridad"
+              src="/images/image14.jpeg"
+              alt="Cimentación con varilla y trabajadores en obra civil"
             />
             <div className="absolute inset-0 p-10 flex flex-col justify-end">
               <h3 className="font-headline font-bold text-xl text-white mb-2">
@@ -133,8 +133,8 @@ const Services = () => {
               <div className="hidden md:block w-48 h-48 rounded-lg bg-surface overflow-hidden border border-outline-variant/20">
                 <img
                   className="w-full h-full object-cover grayscale opacity-60"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaHTk_V4_Ar5o-RahEa0jmo8fu0HPDHgYR9-jbWKBDECTwRwXu4insGbExI6TtFauYEkdSzVMhfBitLpaBfN0uIwEi8QpYnMlPf8eaOMMJyWtFdy8ptOsTizuTK9AiTbH26XolxJkgq4DkLs2YVjm6KFsXMVIz5msjngo2gZ417MryOy1Lpf_hJOTUyjP1-I5MpnRoSia8Ao_kwJ8_L9VzhMmopLFRUD5-kbJ5Za0nKKKmKISv5SGacXjU0zl9U5cNK4czhFn6l_O4"
-                  alt="Detalle de textura de asfalto"
+                  src="/images/image6.png"
+                  alt="Losa de concreto colada en obra de infraestructura"
                 />
               </div>
               <div className="flex-1">

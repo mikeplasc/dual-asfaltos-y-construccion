@@ -60,7 +60,7 @@ const Contact = () => {
                       mail
                     </span>
                     <span className="text-xs md:text-sm font-bold uppercase tracking-widest">
-                      proyectos@dual-asfaltos.com
+                      proyectos@dual-ayc.com
                     </span>
                   </div>
                   <div className="flex items-center gap-4">

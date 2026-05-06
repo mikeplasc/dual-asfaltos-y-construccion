@@ -13,8 +13,8 @@ const ServicesPage = () => {
           <div className="absolute inset-0 z-0">
             <img
               className="w-full h-full object-cover grayscale-[0.5] contrast-[1.1]"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL7iL7MIcBp0jT8ObTnO56EsNFNyaj3pOEUCfecaVT2WjYhaYeqf7fbTxJDDGeQpTtxtBfbXfO-ZwIn5H4sm03aB3vUH21nijMctLRhxJ3HbGGBjySVW-Zq7_vPB3NU1kdmEwjfM2ELA2INvkHHunPOrmEApHPIg73KYUE8Sw_5rpkgq92fyQGR0QGR6Ko-cyf5zRzE443g9NGQhqrmuiaJYRA0wZqpfJi7FmfwE16pKK0-pzXNuEu_JLL0vxPnWK_KdauLxaVeDU"
-              alt="Construcción de autopista al anochecer con maquinaria pesada"
+              src="/images/image5.png"
+              alt="Maquinaria pesada en excavación de obra civil"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/60 to-transparent"></div>
             <div className="absolute inset-0 bg-surface/40"></div>
@@ -36,8 +36,8 @@ const ServicesPage = () => {
             <div className="lg:col-span-7 relative group rounded-xl overflow-hidden aspect-[16/10]">
               <img
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAD-bahbPGmoSRTRMSSuhs1Fh0ZwUeSXkSUSQjIa6eyDrllXzgy5EHTH-dO-XRxvXa2o3Ek3HMaUaUiTltYWaNJ1B2hAilQRKCyJLApfNzkWAa5uoq09UwdMF_5kmuFmX1k02bWsQ2wN4CSSK-X2KpseH3kjSAHTIhPWUVntZgDiJYgxUtXVP4CIRgp5bgLi_s9f6IX181GEJcu33mzXQDMbnUfzjhKTafem7QqhSPV1wsmQYH0EVnecSp8Q4CLY0UhtZcnlAXP-6Q"
-                alt="Excavadoras trabajando en terracerías a gran escala"
+                src="/images/image4.jpeg"
+                alt="Obra civil perimetral con instalaciones hidráulicas"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-surface-container-lowest/80 to-transparent"></div>
             </div>
@@ -91,22 +91,22 @@ const ServicesPage = () => {
                 icon="engineering"
                 title="Mezclas Asfálticas en Caliente"
                 description="Producción y aplicación de mezclas de alto desempeño diseñadas para resistir cargas pesadas y climas extremos."
-                image="https://lh3.googleusercontent.com/aida-public/AB6AXuApYbkUlrDvcNe7px0JeKbgKJxwuNugOz0kSbECbsUfIELWl-aFCL-qDGbouLtPe1cFUphzxo2FhWqBa8kDc_Pnfxe3Lrucb9W5IJ4sTIRzFWbdB50og_D0rjL7GwrxHOAPze1F7Cu6ncfWeOdlAi1SVSu257yzOdit7o8OpH8r77_1ixTwspVvY3MAbhlktEjn-4RiKbxxdaYp9NGDlGvkRmHw1sgaD_Twb5wY8ggci2Q4q2csvRQHJ89Z1S3w4I9x5STI-hVm2U0"
-                imageAlt="Asfalto caliente siendo extendido"
+                image="/images/image19.jpeg"
+                imageAlt="Trabajadores nivelando losa de concreto"
               />
               <AsphaltCard
                 icon="build"
                 title="Mantenimiento y Rehabilitación"
                 description="Soluciones correctivas y preventivas para prolongar la vida útil de carpetas asfálticas existentes con mínima interrupción."
-                image="https://lh3.googleusercontent.com/aida-public/AB6AXuBJiFPNpnwsVMmGVh6UlhSRknFPfovx3s8bsUJqTG_o5TAewKh8Z0v4sxnTHsjfFsscH-gm1a1PlZ0eRXYGBDlMJhmF_GHmEMMJJME4J9g42Ir988xLdQK1dArDdrxi9MBH3i0bWbx2jfCpRc4Yr7bq9x_DHZ6k-Am_A_ISx4uFdNT9kLO3xiwjqwtwJCXtizjnVTqxOdr6dOqLXg71BFs6EL6XC61aR3HDrxNMT2dXv69PU1PQiRcuPHeRb1D6dyNtNO7_joB2SZA"
-                imageAlt="Reparación de grietas en asfalto industrial"
+                image="/images/image6.png"
+                imageAlt="Losa de concreto colada vista desde arriba"
               />
               <AsphaltCard
                 icon="waves"
                 title="Riegos de Impregnación"
                 description="Aplicación de emulsiones asfálticas de precisión para asegurar la adherencia perfecta entre capas de pavimento."
-                image="https://lh3.googleusercontent.com/aida-public/AB6AXuDjfMk2oa_IjdQrT6Pf-wX1QxMqDL83lGKTB2_m9sUg0meLIAuHj4V3Rijujq3ItItz4k8o959WNyeijqHIRZ_nXZoGYS_9dJY6hZH9V0G8M9pUobW1rtnCixS4_Yd4CdKw0XqSrqO4G49EBHYk7LQ4xUSacO6CJ_aTu9Nr2ekGgFsFPbZw-Rmpqmwgw-rzs-oVnOKWl6qtYBeHFp4J-DL0fKJczqCh6PBHUxv9p-UA72uwe6dCcgR4DnO2y5DKtrihot_ITKPjOY8"
-                imageAlt="Aplicación de emulsión asfáltica en base de camino"
+                image="/images/image16.jpeg"
+                imageAlt="Trabajadores con camión revolvedor en guarnición"
               />
             </div>
           </div>
@@ -149,8 +149,8 @@ const ServicesPage = () => {
                   <div className="absolute -inset-4 bg-primary/20 blur-3xl rounded-full"></div>
                   <img
                     className="relative rounded-xl shadow-2xl border border-white/10"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2dQl5l9rnRn5q2wRi22xrgT79xv2-yjasQEvxGqXNdnZdmHciIwNtpzt7mzvslXIWt5aVTJ8k6W-5OQv10LNrZfUJbpvScbQNzTZ55cl7Shi2F8D5w2-m03vmC-eXi4NtgsflMHs_spPSd27MlYrd9BiAVvJrcWn_L5nQUwW_NGxUskT3R5IAb-8HRAWLhyePJUUs4mBlQla-iKfs2sIC71zvO6fVlnZOA5BTdb6cC9BZeplGvNCHjsDbMesHxItgWB5BbnmHV8g"
-                    alt="Flotilla de maquinaria pesada en patio de renta"
+                    src="/images/image20.jpeg"
+                    alt="Estructura metálica de nave en construcción"
                   />
                 </div>
               </div>
@@ -215,8 +215,8 @@ const ServicesPage = () => {
             <div className="order-2 md:order-1">
               <img
                 className="rounded-2xl border-2 border-primary/20 shadow-2xl w-full"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdMZNZ8WN3HCfRmQ-4P19IAcFpdbmtkun3xDuv_c0NlydXnJDMewJo9w1OPJv2SWHZtJLXfIwBbLFd-nnB4vykmVBJldXL50hiV50RAaiy6nIEF03jltVFPzW7pp4a15SXIZqB4WDJ1CMUIQ8puXbn-RicWBhkJS72qloFBGUq6QPKwMOc-O9fCiCu29gsADAdZVrklZ-nKVDNqNh4GStsTAgkx-_9iIdr2mCOXh3bEaCvI_8fI2e8j51TfEyCEh3bqTooq9tvmZo"
-                alt="Ingenieros revisando planos técnicos"
+                src="/images/image17.jpeg"
+                alt="Estructura de fraccionamiento en fase de construcción"
               />
             </div>
             <div className="order-1 md:order-2 space-y-8">

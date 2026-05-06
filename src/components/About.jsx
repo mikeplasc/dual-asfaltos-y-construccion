@@ -13,8 +13,8 @@ const About = () => {
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary/5 rounded-full blur-3xl"></div>
             <img
               className="w-full h-[400px] md:h-[600px] object-cover rounded-lg border border-outline-variant/10 shadow-2xl"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOT_qb30hLLOYBC3srNqcrn1MwdpnpCTjK_RCIBgTFa7ejAvt61oHG4avjYgmHfUf8poh4aFpP1A-yPsoNBmXN4S_4pKvK2-8dd_pqz_SrVA0XoAyBHgTDq9eYzQ_R-gWspClpFA4AvEis5dvkQyeXvpBOXmwFoGAgCGDWXcY-JIZQ7w0Jtqlo5eLlN5zH7_soqTslrV6IvLFnc0EWUqtz4atzHbeCiJ9k787xzlFeEej1bKjohjU9vphNPBN6XRFs67GJl5N_tcba"
-              alt="Modern engineering structure"
+              src="/images/image15.jpeg"
+              alt="Caseta de acceso de fraccionamiento terminada"
             />
             <div className="hidden md:block absolute -bottom-8 -right-8 glass-card p-8 rounded-lg border border-outline-variant/20">
               <p className="font-headline text-5xl font-bold text-primary mb-2">
